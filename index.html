@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="My Profile">
+    <meta name="description" content="My Profile">
     <title>My Profile</title>
 </head>
 
@@ -14,15 +14,15 @@
     </header>
     <nav>
         <ul>
-            <li>About Me</li>
-            <li>Hobbies</li>
-            <li>Contact</li>
+            <li><a href="#bio">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <article id="bio">
             <h2>My Bio</h2>
-            <img src="images/dennispp.jpg" alt="Profile picture of Dennis" />
+            <img src="images/dennispp.jpg" alt="Profile picture of Dennis" width="200" height="200" style="border-radius: 50%;">
             <p>I am a multidisciplinary professional with a BSc in Biology and Biotechnology and a Postgraduate
                 Diploma in Information Technology (PGD IT). Currently, I am pursuing an MSc in Information
                 Technology and have a strong passion for mobile application development using React Native.
@@ -37,8 +37,8 @@
                 Driven by continuous learning and a passion for tech, I am Currently learning Software Engineering
                 at 3mmt a Federal Government of Nigeria initiative.
             </p>
-        </section>
-        <section>
+        </article>
+        <section id="hobbies">
             <h2>My Hobbies</h2>
             <ul>
                 <li>Programming</li>
@@ -48,7 +48,7 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <ul>
             <li><a href="https://www.facebook.com/talk2dennis">Facebook</a></li>
             <li><a href="https://www.twitter.com/talk2dennis">Twitter</a></li>
